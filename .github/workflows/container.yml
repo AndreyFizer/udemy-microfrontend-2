@@ -5,6 +5,9 @@ on:
     branches:
       - "main"
 
+    paths:
+      - "packages/container/**"
+
 jobs:
   build:
     runs-on: ubuntu-latest
